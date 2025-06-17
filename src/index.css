@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #9a8c98 #4a4e69;
+  cursor: none !important;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #4a4e69;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #9a8c98;
+  border-radius: 10px;
+  border: 2px solid #4a4e69;
+}
+
+html {
+  scroll-behavior: smooth;
+}
