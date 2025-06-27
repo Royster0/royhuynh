@@ -1,4 +1,5 @@
 import { motion, useScroll, useSpring } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react";
 
 // Hooks
 import { useTheme } from "./hooks/useTheme";
@@ -43,6 +44,7 @@ export default function App() {
 
   return (
     <div className="bg-parchment dark:bg-navy-dark transition-colors duration-500 relative">
+      <Analytics />
       <CustomCursor position={mousePosition} />
 
       <motion.div
@@ -68,6 +70,9 @@ export default function App() {
 
       {/* Theme Toggle Button */}
       <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
+
+      {/* Vercel Page Analytics */}
+      <Analytics />
     </div>
   );
 }
