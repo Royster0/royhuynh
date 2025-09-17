@@ -15,7 +15,7 @@ import { Summary } from "./sections/Summary";
 import { Education } from "./sections/Education";
 import { Experience } from "./sections/Experience";
 import { Projects } from "./sections/Projects";
-import { Skills } from "./sections/Skills";
+// import { Skills } from "./sections/Skills";
 import { Hobbies } from "./sections/Hobbies";
 import { Contact } from "./sections/Contact";
 import { useMousePosition } from "./hooks/useMousePosition";
@@ -62,7 +62,7 @@ export default function App() {
           <Education />
           <Experience />
           <Projects />
-          <Skills />
+          {/* <Skills /> */}
           <Hobbies />
           <Contact />
         </main>

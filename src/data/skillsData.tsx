@@ -1,5 +1,5 @@
 export const skillsData = [
-  { name: "JavaScript", level: 95 },
+  { name: "React Native", level: 100 },
   { name: "TypeScript", level: 90 },
   { name: "React.js", level: 92 },
   { name: "NextJS", level: 90 },
