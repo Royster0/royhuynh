@@ -2,8 +2,8 @@ export const projectsData = [
   {
     title: "Step Sweats",
     url: "https://github.com/Royster0/step-sweats",
-    description: `A comprehensive social fitness tracking application bootstrapped with Expo and built with React Native. 
-      It enables users to monitor daily steps (distance, calories, floors), compete with friends, and participate in groups. Features real-time 
+    description: `A comprehensive social fitness tracking application bootstrapped with Expo and built with React Native.
+      It enables users to monitor daily steps (distance, calories, floors), compete with friends, and participate in groups. Features real-time
       leaderboards, invitations, group management, notifications, and achievements.`,
     skills: [
       "Expo",
@@ -12,6 +12,7 @@ export const projectsData = [
       "TypeScript",
       "Supabase/Postgres",
     ],
+    demo: "/demos/step-sweats-demo.mp4",
   },
   {
     title: "KeyRush",
